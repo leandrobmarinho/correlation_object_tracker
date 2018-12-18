@@ -24,3 +24,20 @@ Multi object tracking:
   <li> Press 't' to toggle tracking.</li>
   <li> Press 'q' to quit.</li>
   <li> Drag with mouse to select a bounding box. </li>
+
+
+## Virtualenv
+### Install virtualenv via pip:
+pip install virtualenv
+
+### Test your installation
+virtualenv --version
+
+### Create the virtualenv for the project
+virtualenv .env -p python3 --no-site-packages
+
+### To begin using the virtual environment, it needs to be activated:
+. .env/bin/activate
+
+### Intall the packages
+pip install -r requirements.txt
